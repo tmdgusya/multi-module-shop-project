@@ -1,0 +1,7 @@
+bootJar.enabled(false)
+jar.enabled(false)
+
+dependencies {
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
+    runtimeOnly("mysql:mysql-connector-java")
+}
