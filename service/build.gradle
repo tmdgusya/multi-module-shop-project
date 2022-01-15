@@ -2,6 +2,6 @@ bootJar.enabled(false)
 jar.enabled(false)
 
 dependencies {
-  implementation project(":entity")
-  implementation("org.springframework.boot:spring-boot-starter")
+    implementation project(":entity")
+    implementation("org.springframework.boot:spring-boot-starter")
 }
