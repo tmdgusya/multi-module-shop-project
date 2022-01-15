@@ -1,4 +1,4 @@
-package com.example.service
+package com.example.service.domain
 
 import com.example.entity.repository.UserRepository
 import org.springframework.stereotype.Service
