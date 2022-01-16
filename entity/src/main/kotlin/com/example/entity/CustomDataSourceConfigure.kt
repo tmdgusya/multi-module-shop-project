@@ -15,7 +15,7 @@ import javax.sql.DataSource
 @EnableJpaRepositories
 @EnableTransactionManagement
 @ComponentScan("com.example.entity")
-open class CustomDataSourceConfigure {
+class CustomDataSourceConfigure {
 
   @Primary
   @Bean(name = ["dataSource"])
