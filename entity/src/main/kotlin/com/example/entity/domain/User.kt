@@ -1,14 +1,14 @@
 package com.example.entity.domain
 
-import javax.persistence.Entity
-import javax.persistence.GeneratedValue
-import javax.persistence.GenerationType
-import javax.persistence.Id
+import javax.persistence.*
 
 @Entity
 class User(
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
-  val id: Long
+  var id: Long,
+
+  @Column(name = "email", nullable = false)
+  var email: String,
 ) {
 }
