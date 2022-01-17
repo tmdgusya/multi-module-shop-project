@@ -5,3 +5,13 @@ spring:
       username: root
       password: 1234
       driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+logging:
+  level:
+    org.hibernate: info
