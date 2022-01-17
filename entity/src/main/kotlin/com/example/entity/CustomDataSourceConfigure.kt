@@ -37,7 +37,6 @@ class CustomDataSourceConfigure {
 
   @Primary
   @Bean(name = ["entityManagerFactory"])
-  @ConfigurationProperties("spring.jpa.properties.hibernate")
   fun entityManagerFactory(
     @Qualifier("dataSource") dataSource: DataSource,
   ): LocalContainerEntityManagerFactoryBean {
