@@ -1,4 +1,5 @@
 dependencies {
+    implementation project(":port")
     implementation project(":entity")
     implementation project(":service")
     implementation "org.springframework.boot:spring-boot-starter-web"
